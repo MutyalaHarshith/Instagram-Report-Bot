@@ -70,8 +70,8 @@ A powerful bot to mass report spam, fake accounts, and violations in seconds. Fu
 git clone https://github.com/MutyalaHarshith/Instagram-Report-bot
 # Install Packages
 pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
+Edit main.py with variables as given below then run bot
+python3 main.py
 </pre>
 </p>
 </details>
@@ -81,7 +81,8 @@ python3 bot.py
 ```
 /start - Check I'm Alive or Dead 
 /help - Help Guide for new Users 
-/getmeth - Generate Method for your Target 
+/getmeth - Generate Method for your Target
+/instainfo - Generate User Details 
 /users - view bot statistics
 /broadcast - broadcast any messages to bot users
 /restart - Reset your bot uptime
