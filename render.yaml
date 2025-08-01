@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: Instagram-Report-Bot
+    plan: free
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: API_TOKEN
+        description: "Telegram Bot token from @BotFather"
+        sync: false
