@@ -194,6 +194,43 @@ def analyze(message):
     else:
         bot.reply_to(message, f"❌ Profile {username} not found or an error occurred.")
 
+@bot.message_handler(commands=['instainfo'])
+def insta_info(message):
+    user_id = message.chat.id
+    if not is_user_in_channel(user_id):
+        bot.reply_to(message, f"Please join @{FORCE_JOIN_CHANNEL} to use this bot.")
+        return
+
+    args = message.text.split()[1:]
+    if not args:
+        bot.reply_to(message, "😾 Wrong format! Please use like this: /instainfo username")
+        return
+
+    username = ' '.join(args)
+    bot.reply_to(message, f"📄 Getting public info for: {username}. Please wait...")
+
+    profile_info = get_public_instagram_info(username)
+    if profile_info:
+        result_text = f"**Public Info of {username}:**\n"
+        result_text += f"Username: {profile_info.get('username', 'N/A')}\n"
+        result_text += f"Full Name: {profile_info.get('full_name', 'N/A')}\n"
+        result_text += f"Biography: {profile_info.get('biography', 'N/A')}\n"
+        result_text += f"Followers: {profile_info.get('follower_count', 'N/A')}\n"
+        result_text += f"Following: {profile_info.get('following_count', 'N/A')}\n"
+        result_text += f"Posts: {profile_info.get('post_count', 'N/A')}\n"
+        result_text += f"Private Account: {'Yes' if profile_info.get('is_private') else 'No'}\n"
+        result_text += f"External URL: {profile_info.get('external_url', 'N/A')}"
+
+        result_text = escape_markdown_v2(result_text)
+
+        markup = telebot.types.InlineKeyboardMarkup()
+        markup.add(telebot.types.InlineKeyboardButton("Visit Profile", url=f"https://instagram.com/{profile_info['username']}"))
+
+        bot.send_message(message.chat.id, result_text, reply_markup=markup, parse_mode='MarkdownV2')
+    else:
+        bot.reply_to(message, "❌ Profile not found or error occurred while fetching.")
+
+
 @bot.message_handler(commands=['broadcast'])
 def broadcast(message):
     if str(message.chat.id) != ADMIN_ID:
