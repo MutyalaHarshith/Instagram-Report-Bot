@@ -9,3 +9,9 @@ services:
       - key: API_TOKEN
         description: "Telegram Bot token from @BotFather"
         sync: false
+      - key: ADMIN_ID
+        description: "Bot Admin I'd Get from @MutyalaHarshithBot"
+        sync: false
+      - key: FORCE_JOIN_CHANNEL
+        description: "Your Force subscribe channel Username Without @"
+        sync: false  
