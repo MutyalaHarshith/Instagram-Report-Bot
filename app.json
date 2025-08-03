@@ -2,7 +2,7 @@
   "name": "Instagram Report Bot",
   "description": "A simple Telegram bot running on Heroku",
   "repository": "https://github.com/MutyalaHarshith/Instagram-Repot-Bot",
-  "logo": "https://github.com/MutyalaHarshith/Instagram-Report-bot/logo.png",
+  "logo": "https://i.ibb.co/S4LChyzt/file-131.jpg",
   "keywords": ["python", "telegram", "bot", "flask"],
   "buildpacks": [
     {
