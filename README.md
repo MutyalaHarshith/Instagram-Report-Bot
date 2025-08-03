@@ -1,14 +1,19 @@
 <h1 align="center">INSTAGRAM REPORT BOT</h1>
 A powerful bot to mass report spam, fake accounts, and violations in seconds. Fully automated, proxy-supported, and fast. Just run, select the target, and let the bot handle the rest!
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+![@MutyalaHarshith/Instagram-Report-Bot](https://socialify.git.ci/MutyalaHarshith/Instagram-Report-Bot/image?custom_description=A+powerful+bot+to+mass+report+spam,+fake+accounts+and+violations+in+seconds.&description=1&font=Jost&forks=1&logo=https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&name=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=auto)
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## Features
 
-
-![Stars](https://img.shields.io/github/stars/MutyalaHarshith/Instagram-Report-bot?style=social)
-![Forks](https://img.shields.io/github/forks/MutyalaHarshith/Instagram-Report-bot?style=social)
-
+* 🔒 Disable Instagram Account.
+  * With no community.
+  * 0 - 1M followers.
+* User Friendly UI.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -17,18 +22,16 @@ A powerful bot to mass report spam, fake accounts, and violations in seconds. Fu
 > [!CAUTION]
 > ```This tool is created for EDUCATIONAL PURPOSES ONLY. The creator is not responsible for any damage or misuse of this tool.```
 > 
-## Features
 
-* 🔒 Disable Instagram Account.
-  * With no community.
-  * 0 - 1M followers.
-* User Friendly UI.
 
-### Variables
+### ⚙️ Configuration Variables
+Add these environment variables to configure your bot:
+| Variable           | Description                                                |
+|--------------------|------------------------------------------------------------|
+| `API_TOKEN`        | Bot Token from [@BotFather](https://t.me/BotFather)         |
+| `ADMIN_ID`         | Bot Admin I'd Get from <a href='t.me/MutyalaHarshithBot'>IDBot</a>                           |
+| `FORCE_JOIN_CHANNEL`    | Your Fsub channel Username Without @
 
-* `API_TOKEN` Your bot token from @BotFather
-* `ADMIN_ID` Bot Admin I'd Get from <a href='t.me/MutyalaHarshithBot'>Mutyala Harshith Bot</a>
-* `FORCE_JOIN_CHANNEL` Your Fsub channel Username Without @
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
