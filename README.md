@@ -17,13 +17,6 @@ A powerful bot to mass report spam, fake accounts, and violations in seconds. Fu
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p></p> <b align="center">REPORT ANY INSTAGRAM ACCOUNT</b> </p>
-
-> [!CAUTION]
-> ```This tool is created for EDUCATIONAL PURPOSES ONLY. The creator is not responsible for any damage or misuse of this tool.```
-> 
-
-
 ### ⚙️ Configuration Variables
 Add these environment variables to configure your bot:
 | Variable           | Description                                                |
@@ -35,21 +28,31 @@ Add these environment variables to configure your bot:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ ᴍʏ ᴄʀᴇᴅɪᴛ...
+## Bot Commands
 
-</b>⋗  ᴏᴡɴᴇʀ - <b>[Mutyala Harshith](https://t.me/MutyalaHarshith)</b>
+```
+start - Check I'm Alive or Dead 
+help - Help Guide for new Users 
+getmeth - Generate Method for your Target
+instainfo - Generate User Details 
+users - view bot statistics
+broadcast - broadcast any messages to bot users
+restart - Reset your bot uptime
+```
 
-</b>⋗  ᴛᴇʟᴇɢʀᴀᴍ - <b>[Exist Bots](https://t.me/ExistBots)</b>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<p></p> <b align="center">REPORT ANY INSTAGRAM ACCOUNT</b> </p>
+
+> [!CAUTION]
+> ```This tool is created for EDUCATIONAL PURPOSES ONLY. The creator is not responsible for any damage or misuse of this tool.```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<details>
-<summary><h3>
-- <b> ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs </b>
-</h3></summary>
+### Deployment Methods 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
+
 <p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/MutyalaHarshith/Instagram-Report-bot&branch=main&name=main">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
@@ -65,6 +68,14 @@ Add these environment variables to configure your bot:
 <p align="center"><a href="https://render.com/deploy?repo=https://github.com/MutyalaHarshith/Instagram-Report-bot">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p>
+
+<h3 align="center">
+    ─「 ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/MutyalaHarshith/Instagram-Report-bot">
+<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
+</a></p>
+
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs 」─
 </h3>
@@ -79,22 +90,32 @@ python3 main.py
 </p>
 </details>
 
-## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-```
-/start - Check I'm Alive or Dead 
-/help - Help Guide for new Users 
-/getmeth - Generate Method for your Target
-/instainfo - Generate User Details 
-/users - view bot statistics
-/broadcast - broadcast any messages to bot users
-/restart - Reset your bot uptime
-```
+# ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ ᴍʏ ᴄʀᴇᴅɪᴛ...
+
+</b>⋗  ᴏᴡɴᴇʀ - <b>[ᴍᴜᴛʏᴀʟᴀ ʜᴀʀsʜɪᴛʜ](https://t.me/MutyalaHarshith)</b>
+
+</b>⋗ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ  - <b>[ᴇxɪsᴛ ʙᴏᴛs](https://t.me/ExistBots)</b>
+
+</b>⋗ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ  - <b>[ɢʀᴏᴜᴘ ᴇxɪsᴛ](https://t.me/ExistBots)</b>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 
 **Legal Notice**
 
-```console
+``
 This is illegal if you use it without the consent of the creators — in this case, the Instagram/Facebook team. I am not accountable for any of your actions; this was merely a speedrun to demonstrate how botters work. Please do not misuse this tool.
-```
+``
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## Note:
+
+- Please, Just Fork The Repo And Edit As Per Your Needs. # Don't Remove My Credit.
+- ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ.
+- Importing this repo instead of forking is strictly prohibited, Kindly fork and edit as your wish. Must Give Credits for developer(s)
+- If you find any bugs or errors, [report](https://t.me/GroupExist) it
+
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 ---
